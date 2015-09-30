@@ -25,8 +25,7 @@ Node* insertNode(Node* head,datatype val){
 		tmpNode->next = head->next;
 		tmpNode->front = head;
 		head->next->front = tmpNode;
-		head->next = tmpNode;
-		
+		head->next = tmpNode;		
 	}
 	return head;
 }
